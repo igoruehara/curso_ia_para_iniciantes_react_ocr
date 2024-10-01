@@ -1,0 +1,51 @@
+/* frontend/src/components/OCR.css */
+
+.ocr-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.upload-section input {
+  margin: 20px 0;
+}
+
+.image-preview img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.method-selection {
+  margin-bottom: 20px;
+}
+
+.method-selection label {
+  margin-right: 10px;
+}
+
+.method-selection select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.progress-section {
+  margin-top: 20px;
+}
+
+.result-section {
+  margin-top: 20px;
+  text-align: left;
+}
